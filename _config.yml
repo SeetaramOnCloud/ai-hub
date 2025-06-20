@@ -1,0 +1,44 @@
+# _config.yml
+
+title: Seetaram's AI Hub
+author: Seetaram OnCloud
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Exploring the frontiers of AI. Discover my projects, agents, and research.
+# baseurl: "/ai-hub" # only if your site is at github.com/username/ai-hub/ai-hub (unlikely for project pages)
+url: "https://seetaramoncloud.github.io" # Your GitHub Pages URL
+github_username: SeetaramOnCloud
+#linkedin_username: yourlinkedin # Example social link
+
+# Theme (choose one, e.g., jekyll-theme-minimal)
+# Find more themes: https://jekyllrb.com/docs/themes/ or https://pages.github.com/themes/
+theme: jekyll-theme-minimal # Or another theme like jekyll-theme-cayman, jekyll-theme-architect
+
+# Navigation items (will appear in the header if the theme supports it)
+# The exact way to define navigation can vary slightly by theme.
+# For many themes, this is a common approach:
+header_pages:
+  - index.md
+  - agents.md
+# Some themes might use a structure like this:
+# navigation:
+#   - title: About & Speaking
+#     url: /
+#   - title: AI Agents
+#     url: /agents.html
+
+# Plugins (optional, but some themes use them)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag # Good for SEO
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
